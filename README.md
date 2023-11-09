@@ -1,11 +1,11 @@
-#Introduction
+# Introduction
 The purpose of the Geocoder app is to provide an interactive platform for managing a dataset of geographical locations. The app is designed to convert raw latitude and longitude coordinates into human-readable addresses using geocoding techniques and to maintain these locations within a structured database. By leveraging the capabilities of Android Studio and SQLite, alongside geocoding services, the app addresses the need for efficient data handling and geographical information retrieval in a mobile context.
 
 The scope of the project encompasses the creation of an initial database seeded with 50 pre-defined latitude and longitude pairs, the development of an Android application that can interact with this database, and the implementation of a geocoding feature to translate these pairs into physical addresses. Additionally, the app is equipped with a user interface that allows for searching, adding, updating, and deleting records within the database.
 
 Technologically, the app is developed using Android Studio, the official integrated development environment (IDE) for Google's Android operating system, with Java as the primary programming language. The application utilizes the SQLite database for data persistence and employs Android’s Geocoder class to perform the geocoding operations. User interaction is facilitated through a simple and intuitive interface, ensuring that users can manage location data with minimal effort.
 
-##Design
+## Design
 The application consists of six activities, the corresponding XML files, as well as additional classes to help facilitate the functionality. The database is made using SQLite, and the geocoding is done with google API.
 
 MainActivity: The main activity is the landing page of the app. Here the user can navigate to the other pages depending on what they want to do. The menu is just a simple set of buttons.
