@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:flow_verticalGap="40dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAddLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Location" />
+
+    <Button
+        android:id="@+id/buttonEditLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Location" />
+
+    <Button
+        android:id="@+id/btnViewLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Locations" />
+
+
+    <Button
+        android:id="@+id/buttonViewAllLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Locations By Address" />
+
+
+
+</LinearLayout>
